@@ -2,6 +2,32 @@
     margin: 0;
     padding: 0;
 }
-header {
-    background-color: #92B8B7
+header{
+    background-color: #92B8B7;
+    color: #FEFEFE;
+}
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header ul li {
+    color:#FEFEFE;
+}
+
+/* -----Desktop----- */
+@media screen and (min-width: 769px) {
+    header {
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    header h1 {
+        grid-area: 1 / 1;
+        margin: 1rem;
+        margin-left: 6rem;
+    }
+    
+}
+
+/* -----Mobil----- */
+@media screen and (max-width: 768px){
+    header {background-color: palegreen}
 }
