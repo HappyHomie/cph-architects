@@ -1,0 +1,25 @@
+@import "./main.css";
+
+/* -----Desktop----- */
+@media screen and (min-width: 769px) {}
+
+#wrapper {
+    height: 30em;
+    padding: 0 10em;
+}
+
+.picture1 {
+    float: right;
+}
+
+/* -----Mobil----- */
+@media screen and (max-width: 768px) {
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    p {
+        padding: 2em;
+    }
+}
