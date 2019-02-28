@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    padding: 1rem;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+p {
+    font-family: Verdana;
+}
+
+/* -----Desktop----- */
+@media screen and (min-width: 769px) {
+}
+    #wrapper{
+        height: 30em;
+    }
+    .picture1{
+        float: right;
+        shape-outside: url(../IMG/photo-big.png)
+    }
+/* -----Mobil----- */
+@media screen and (max-width: 768px) {
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    p {
+        padding: 2em;
+    }
+}
