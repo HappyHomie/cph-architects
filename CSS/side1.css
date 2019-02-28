@@ -34,6 +34,10 @@ section p{
 }
 /* -----Desktop----- */
 @media screen and (min-width: 769px) {
+    section h2{
+        margin: 0.6em 0;
+        align-self: center;
+    }
 }
 /* -----Mobil----- */
 @media screen and (max-width: 768px) {
