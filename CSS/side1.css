@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article {
+    background-color: #bcdfde;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    margin-top: 1em;
+}
+section {
+    padding: 1rem;
+}
+section img {
+    grid-column: 1 / 2;
+}
+section h2 {
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+section p{
+    grid-column: 2 / 3;
+}
+/* -----Desktop----- */
+@media screen and (min-width: 769px) {
+    section h2{
+        margin: 0.6em 0;
+        align-self: center;
+    }
+}
+/* -----Mobil----- */
+@media screen and (max-width: 768px) {
+    section h2{
+        margin: 0.6em 0;
+        align-self: center;
+    }
+}
