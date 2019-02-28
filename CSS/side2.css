@@ -72,6 +72,7 @@ div img {
         grid-template-rows: 1fr 10em;
     }
     .img3 {
+        width: 100%;
     }
     .fototext3 {
         padding: 1em 20em;
