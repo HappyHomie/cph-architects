@@ -1,5 +1,4 @@
 @import "../styles/main.css";
-
 .imgcontainer{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,4 +8,9 @@
 }
 .containerimg{
     width: 100%;
+}
+@media screen and (min-width: 769px) {
+    .imgcontainer{
+        padding: 4em 10em;
+    }
 }
