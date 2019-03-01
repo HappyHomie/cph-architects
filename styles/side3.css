@@ -1,7 +1,9 @@
 @import "./main.css";
 
+
+
 /* -----Desktop----- */
-@media screen and (min-width: 769px) {}
+@media screen and (min-width: 769px) {
     main h1{
         padding: 1em 4em;    
     }
@@ -14,25 +16,47 @@
     .picture1 {
         float: right;
     }
-    .picture2 {
-        width: 100%;
-    }
+
     .picture2{
         height: 40em;
+        width: 100%;
         padding-top: 2em;
     }
+
     .text2{
         padding: 2em 8em 2em 8em;
     }
-
+}
 /* -----Mobil----- */
 @media screen and (max-width: 768px) {
-    img {
-        width: 100%;
-        object-fit: cover;
+    main h1{
+        padding: 1em 1rem;    
     }
-
-    p {
+    #wrapper {
+        height: 100%;
+        padding: 0;
+    }
+    .picture1 {
+        float: none;
+        width: 100%;
+    }
+    .picture2{
+        height: 100%;
+        width: 100%;
+        padding-top: 0;
+    }
+    .text1{
         padding: 1em;
     }
+    .text2{
+        padding: 1em;
+    }
+    /* img {
+        width: 100%;
+        object-fit: cover;
+    } */
+
+    /* p {
+        padding: 1em;
+    } */
 }
