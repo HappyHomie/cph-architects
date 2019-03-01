@@ -1,0 +1,12 @@
+@import "../styles/main.css";
+
+.imgcontainer{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding: 1em;
+}
+.containerimg{
+    width: 100%;
+}
